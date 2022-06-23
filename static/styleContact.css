@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+*{
+    margin : 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin : 12px 0 ;
+}
+.container{
+    background: center/cover no-repeat url(/static/cntbg.jpg);
+    min-height: 86vh;
+    /* margin: 43px 0; */
+    /* FONT-VARIANT: JIS04; */
+    /* FONT-WEIGHT: 200; */
+    padding: 43px 0;
+}
+.container h1{
+    /* font-family: "Yeon Sung"; */
+    font-size: 34px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myInput{
+    width : 40%;
+    padding: 9px;
+    margin: 8px;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-size: 16px;
+    outline: none;
+}
+#footer{
+    display: flex;
+    background-color: black;
+    height: 60px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font: 20px;
+}
+.btn{
+    padding: 2px 16px;
+    margin: 6px 0;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 8px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    outline:  none;
+}
