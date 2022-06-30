@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html> 
+  <head> 
+    <title>Raj Classes </title>
+    <script src="/static/index.js"></script>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+*{
+    margin : 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#navbar{
+    background-color: black;
+    margin : 0;
+    padding : 0;
+    font-family: 'Yeon Sung' ;
+    padding: 4px 0px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+    color: white;
+    font-size: 30px;
+   text-decoration: none;
+    padding: 13px 20px;
+}
+#navbar li a:hover{
+    color: red;
+}
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 65px;
+    /* align-items: center; */
+    background: center/cover no-repeat url(/static/bg.jpg);
+    height: 425px;
+    background-color: red;
+    color: black;
+    justify-content: end;
+    align-items: end;
+    /* margin-bottom: 65px; */
+    padding-bottom: 218px;
+    padding-right: 129px;
+}
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px 0px;
+    color: black;
+}
+
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 14px;
+    height: 209px;
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card h4{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#missionSection{
+    height: 326px; 
+    width: 67%;
+    margin: auto;
+    display: block;
+}
+
+#missionSection h2{
+    /* font-size: 36px; */
+    font-family: 'Yeon Sung' ;
+    text-align: center;
+    padding-top: 12px;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: -10px 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img1{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img1 img{
+    height: inherit; 
+    width: 260px;
+}
+.card-img2{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img2 img{
+    height: inherit; 
+}
+.card-img3{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img3 img{
+    height: inherit; 
+}
+
+#sponsorsSection{
+    height: 265px;
+    background-color: rgb(173, 141, 141);
+}
+#sponsorsSection h2{
+    font-family: 'Yeon Sung';
+    text-align:  center;
+    padding-top: 12px;
+    font-size: 36px;
+}
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 93px;
+}
+.spImage{
+    height: 118%;
+    margin: 28px
+}
+
+#footer{
+    display: flex;
+    background-color: black;
+    height: 60px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font: 20px;
+}@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+*{
+    margin : 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin : 12px 0 ;
+}
+.container{
+    background: center/cover no-repeat url(/static/cntbg.jpg);
+    min-height: 86vh;
+    /* margin: 43px 0; */
+    /* FONT-VARIANT: JIS04; */
+    /* FONT-WEIGHT: 200; */
+    padding: 43px 0;
+}
+.container h1{
+    /* font-family: "Yeon Sung"; */
+    font-size: 34px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myInput{
+    width : 40%;
+    padding: 9px;
+    margin: 8px;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-size: 16px;
+    outline: none;
+}
+#footer{
+    display: flex;
+    background-color: black;
+    height: 60px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font: 20px;
+}
+.btn{
+    padding: 2px 16px;
+    margin: 6px 0;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 8px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    outline:  none;
+}
+    </style>
+  </head>
+</html>
+<body> 
+  <nav id="navbar">
+    <ul>
+      <div id="logo"><img src="/static/ig.png">RJC</div>
+      <li><a href="/">Home</a></li>
+      <li><a href="/">About</a></li>
+      <li><a href="/">Services</a></li>
+      <li><a href="/">Class Info</a></li>
+      <li><a href="/contact">Contact Us</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <h1>Contact Us </h1>
+    <form class="myForm" action="/contact" method="post"> 
+      <input class="myInput" type="text" name="name" placeholder="Enter your name here">
+      <input class="myInput" type="phone" name="phone" placeholder="Enter your phone number here">
+      <input class="myInput" type="email" name="email" placeholder="Enter your email id here">
+      <input class="myInput" type="text" name="adress" placeholder="Enter your adress here">
+      <input class="myInput" type="text" name="suggestion" placeholder="Any suggestions">
+      <button class="btn">Submit</button>
+    </form>
+  </div>
+  <footer id="footer">Copyright © 2022 RajClasses.com | All Rights Reserved</footer>
+</body>
