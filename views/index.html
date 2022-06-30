@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Raj Classes</title>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+*{
+    margin : 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#navbar{
+    background-color: black;
+    margin : 0;
+    padding : 0;
+    font-family: 'Yeon Sung' ;
+    padding: 4px 0px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+    color: white;
+    font-size: 30px;
+   text-decoration: none;
+    padding: 13px 20px;
+}
+#navbar li a:hover{
+    color: red;
+}
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 65px;
+    /* align-items: center; */
+    background: center/cover no-repeat url(/static/bg.jpg);
+    height: 425px;
+    background-color: red;
+    color: black;
+    justify-content: end;
+    align-items: end;
+    /* margin-bottom: 65px; */
+    padding-bottom: 218px;
+    padding-right: 129px;
+}
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px 0px;
+    color: black;
+}
+
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 14px;
+    height: 209px;
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card h4{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#missionSection{
+    height: 326px; 
+    width: 67%;
+    margin: auto;
+    display: block;
+}
+
+#missionSection h2{
+    /* font-size: 36px; */
+    font-family: 'Yeon Sung' ;
+    text-align: center;
+    padding-top: 12px;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: -10px 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img1{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img1 img{
+    height: inherit; 
+    width: 260px;
+}
+.card-img2{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img2 img{
+    height: inherit; 
+}
+.card-img3{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img3 img{
+    height: inherit; 
+}
+
+#sponsorsSection{
+    height: 265px;
+    background-color: rgb(173, 141, 141);
+}
+#sponsorsSection h2{
+    font-family: 'Yeon Sung';
+    text-align:  center;
+    padding-top: 12px;
+    font-size: 36px;
+}
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 93px;
+}
+.spImage{
+    height: 118%;
+    margin: 28px
+}
+
+#footer{
+    display: flex;
+    background-color: black;
+    height: 60px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font: 20px;
+}
+    </style>
+  </head>
+</html>
+<body>
+  <nav id="navbar">
+    <ul>
+      <div id="logo"><img src="/static/ig.png">RJC</div>
+      <li><a href="/">Home</a></li>
+      <li><a href="/">About</a></li>
+      <li><a href="/">Services</a></li>
+      <li><a href="/">Class Info</a></li>
+      <li><a href="/contact">Contact Us</a> </li>
+    </ul>
+  </nav>
+</body>
+<section id="introSection">
+  <div>Welcome to Raj Coaching Classes</div>
+  <div class="small">Accelerate towards your goal with RJC's</div>
+</section>
+<section id="missionSection">
+  <h2>Why Choose RJC?</h2>
+  <div class="card">
+    <h3>Learn from Best Teachers</h3>
+    <div class="card-box">
+      <div class="card-img1"><img src="/static/ig1.jpg"></div>
+      <div class="card-content">
+        <p> </p>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <h4>Scientifically Designed Study Material</h4>
+    <div class="card-box">
+      <div class="card-img2"><img src="/static/ig2.jpg"></div>
+      <div class="card-content">
+        <p> </p>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <h3>Highly competitive peer group</h3>
+    <div class="card-box">
+      <div class="card-img3"><img src="/static/ig3.jpg"></div>
+      <div class="card-content">
+        <p>Plays very important role in achieving your goal</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="sponsorsSection">
+  <h2>Our Sponsors</h2>
+  <div id="sponsors"><img class="spImage" src="/static/logo1.png" alt="Sponsor Image"><img class="spImage" src="/static/logo2.png" alt="Sponsor Image"><img class="spImage" src="/static/logo3.png" alt="Sponsor Image"><img class="spImage" src="/static/logo4.jpg" alt="Sponsor Image"></div>
+</section>
+<footer id="footer">Copyright © 2022 RajClasses.com | All Rights Reserved</footer>
