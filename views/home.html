@@ -1,0 +1,59 @@
+extends base.pug
+
+block scripts 
+   script(src='/static/index.js')
+
+block style 
+   style 
+     include ../static/style.css 
+
+block content 
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/ig.png")
+                | RJC
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/contact") Contact Us] 
+section#introSection
+        div Welcome to Raj Coaching Classes
+        div.small Accelerate towards your goal with RJC's
+section#missionSection
+        h2 Why Choose RJC?
+        div.card
+            h3 Learn from Best Teachers
+            div.card-box
+                div.card-img1
+                    img(src="/static/ig1.jpg")
+                div.card-content
+                    p 
+
+        div.card
+            h4 Scientifically Designed Study Material
+            div.card-box
+                div.card-img2
+                    img(src="/static/ig2.jpg")
+                div.card-content
+                    p 
+
+        div.card
+            h3 Highly competitive peer group
+            div.card-box
+                div.card-img3
+                    img(src="/static/ig3.jpg")
+
+                div.card-content
+                    p Plays very important role in achieving your goal
+
+section#sponsorsSection
+      h2 Our Sponsors
+      div#sponsors
+          img(src="/static/logo1.png", alt="Sponsor Image", class="spImage")
+          img(src="/static/logo2.png", alt="Sponsor Image", class="spImage")
+          img(src="/static/logo3.png", alt="Sponsor Image", class="spImage")
+          img(src="/static/logo4.jpg", alt="Sponsor Image", class="spImage")
+
+
